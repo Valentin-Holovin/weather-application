@@ -1,0 +1,22 @@
+.city_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21rem;
+
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.weather_information{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22rem;
+    width: 75%;
+}
+
+@media (min-width: 480px) {
+    .weather_information{
+       
+    }
+}

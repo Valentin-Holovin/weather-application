@@ -1,0 +1,27 @@
+.favorites_container{
+    width: 15%;
+    position: absolute;
+}
+
+.favorite_cities{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.favorites_block{
+    display: flex;
+    justify-content: flex-end;
+    margin: 6px;
+}
+
+.favorites_city{
+    font-size: 25px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.favorites_city:hover{
+    color: rgb(53, 53, 53);
+}
+

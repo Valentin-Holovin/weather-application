@@ -44,11 +44,9 @@ const SearchStrip = (props) => {
 
 const mapStateToProps = (state) => ({
     city: state.weather.city,
-    favorites: state.favorites.favorites
 })
 
 const mapDispatchToProps = {
-    setFavorites: favoritesActions.setFavorites,
     fetchWeather: weatherActions.fetchWeather,
     setCity: weatherActions.setCity,
     addCityToFavorites: favoritesActions.addCityToFavorites

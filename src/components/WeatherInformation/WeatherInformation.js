@@ -25,8 +25,7 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = {
-    setCity: weatherActions.setCity,
-    fetchWeather: weatherActions.fetchWeather
+    
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(WeatherInformation)
